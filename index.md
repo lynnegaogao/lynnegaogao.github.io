@@ -8,11 +8,12 @@ class: home
 
 <div class="me" markdown="1">
 <picture>
-  <source srcset='/images/dominik_berlin.webp' type='image/webp' />
+  <source srcset='/images/lynnegao.jpg' type='image/jpeg' />
   <img
     src='/images/lynnegao.jpg'
     alt='Lin Gao'>
 </picture>
+
 
 {:.no-list}
 * <a href="mailto:{{ site.email }}">{{ site.email }}</a>
