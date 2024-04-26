@@ -9,9 +9,11 @@ class: home
 <div class="intro" markdown="1">
 Hi! I'm Lin Gao (Lynne). I'm currently a master student in the School of Data Science at [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I am also a member of [FDUVIS](https://fduvis.net/), supervised by Prof. [Siming Chen](http://simingchen.me/). 
 
-I received my PhD from the [Paul G. Allen School](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/), where I worked with [Jeff Heer](https://homes.cs.washington.edu/~jheer/) and [Bill Howe](https://homes.cs.washington.edu/~billhowe/) in the [Interactive Data Lab](http://idl.cs.washington.edu/) and the [Database Group](https://db.cs.washington.edu/).
+My research interests
 
-My systems have [won](https://vega.github.io/vega-lite/) [awards](https://uwdata.github.io/draco/) at premier academic venues and are used by the [Python](https://altair-viz.github.io) and [JavaScript](https://vega.github.io/vega-lite/) data science communities.
+<!--I received my PhD from the [Paul G. Allen School](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/), where I worked with [Jeff Heer](https://homes.cs.washington.edu/~jheer/) and [Bill Howe](https://homes.cs.washington.edu/~billhowe/) in the [Interactive Data Lab](http://idl.cs.washington.edu/) and the [Database Group](https://db.cs.washington.edu/).
+
+My systems have [won](https://vega.github.io/vega-lite/) [awards](https://uwdata.github.io/draco/) at premier academic venues and are used by the [Python](https://altair-viz.github.io) and [JavaScript](https://vega.github.io/vega-lite/) data science communities.-->
 </div>
 
 <div class="me" markdown="1">
