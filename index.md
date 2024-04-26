@@ -4,12 +4,10 @@ title: "Home"
 class: home
 ---
 
-# Hi, I'm Lynne Gao
-
 <div class="columns" markdown="1">
 
 <div class="intro" markdown="1">
-I'm a professor at the [Human-Computer Interaction Institute](https://hcii.cmu.edu/) at [Carnegie Mellon University](https://www.cmu.edu/) and an ML researcher at [Apple](https://www.apple.com/) <i class="fab fa-apple"></i>. I design and build interactive systems for visualization and analysis. At CMU, I co-lead the [Data Interaction Group](https://dig.cmu.edu/).
+Hi! I'm Lin Gao (Lynne). I'm currently a master student in the School of Data Science at [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I am also a member of [FDUVIS](https://fduvis.net/), supervised by Prof. [Siming Chen](http://simingchen.me/). 
 
 I received my PhD from the [Paul G. Allen School](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/), where I worked with [Jeff Heer](https://homes.cs.washington.edu/~jheer/) and [Bill Howe](https://homes.cs.washington.edu/~billhowe/) in the [Interactive Data Lab](http://idl.cs.washington.edu/) and the [Database Group](https://db.cs.washington.edu/).
 
