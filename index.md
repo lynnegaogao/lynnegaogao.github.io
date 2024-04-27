@@ -21,15 +21,12 @@ class: home
 </div>
 
 <div class="intro" markdown="1">
-Hi! I'm Lin Gao (Lynne). I'm currently a master student in the School of Data Science at [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I am also a member of [FDUVIS](https://fduvis.net/), supervised by Prof. [Siming Chen](http://simingchen.me/). 
+Hello, I'm Lin Gao (Lynne), a master's student at the School of Data Science, [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I'm a member of the [FDUVIS Lab](https://fduvis.net/), where I work under the supervision of Prof. [Siming Chen](http://simingchen.me/). In 2023, I graduated from [Chongqing University (CQU)](https://english.cqu.edu.cn/) with a bachelor's degree in Data Science and Big Data Technology. At CQU, I was advised by Prof. [Haibo Hu](http://www.cse.cqu.edu.cn/info/2030/2497.htm) and was part of the [CQU-VIVALab](http://www.cquviva.cn/).
 
-My research interests
 
-<!--I received my PhD from the [Paul G. Allen School](https://www.cs.washington.edu/) at the [University of Washington](https://www.washington.edu/), where I worked with [Jeff Heer](https://homes.cs.washington.edu/~jheer/) and [Bill Howe](https://homes.cs.washington.edu/~billhowe/) in the [Interactive Data Lab](http://idl.cs.washington.edu/) and the [Database Group](https://db.cs.washington.edu/).
+My research interests lie in  
 
-My systems have [won](https://vega.github.io/vega-lite/) [awards](https://uwdata.github.io/draco/) at premier academic venues and are used by the [Python](https://altair-viz.github.io) and [JavaScript](https://vega.github.io/vega-lite/) data science communities.-->
 </div>
-
 
 
 </div>

@@ -4,8 +4,8 @@
 @charset "utf-8";
 
 // Our variables
-$base-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-$base-font-size:   100%;  // 16px by default
+$base-font-family: "Fira Sans", sans-serif;
+$base-font-size:   95%;  // 16px by default
 $small-font-size:  0.9rem;
 $base-line-height: 1.64;
 
@@ -15,7 +15,7 @@ $content-width:    800px;
 $text-color:        #414141;
 $dark-text-color:   #333;
 $background-color:  #fff;
-$brand-color:       #b00;
+$brand-color:       rgba(169, 169, 169, 0.287);
 $yellow-color:      #ffc000;
 $link-color:        #3477ad;
 $header-background: #ececec;
