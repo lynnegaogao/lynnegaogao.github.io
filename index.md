@@ -16,24 +16,26 @@ class: home
 
 
 {:.no-list}
-* <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-* 
+* <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i>  {{ site.email }}</a>
+* <a href="https://github.com/lynnegaogao"><i class="fab fa-github" aria-hidden="true"></i> lynnegaogao</a>
+<a href="https://scholar.google.com/citations?user=9VqrBe0AAAAJ"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Lin Gao</a>
+<!--<a href="https://scholar.google.com/citations?user=9VqrBe0AAAAJ"><i class="fas fa-id-card" aria-hidden="true"></i></a>-->
+<!--<a href="https://twitter.com/Lynnegaogao"><i class="fab fa-twitter" aria-hidden="true"></i>Lynnegaogao</a>--> 
 </div>
 
 <div class="intro" markdown="1">
-Hello, I'm Lin Gao (Lynne), a master's student at the School of Data Science, [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I'm a member of the [FDUVIS Lab](https://fduvis.net/), where I work under the supervision of Prof. [Siming Chen](http://simingchen.me/). In 2023, I graduated from [Chongqing University (CQU)](https://english.cqu.edu.cn/) with a bachelor's degree in Data Science and Big Data Technology. At CQU, I was advised by Prof. [Haibo Hu](http://www.cse.cqu.edu.cn/info/2030/2497.htm) and was part of the [CQU-VIVALab](http://www.cquviva.cn/).
+Hello, I'm Lin Gao (Lynne), a master candidate at the School of Data Science, [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I'm a member of the [FDUVIS Lab](https://fduvis.net/), where I work under the supervision of Prof. [Siming Chen](http://simingchen.me/). In 2023, I graduated from [Chongqing University (CQU)](https://english.cqu.edu.cn/) with a bachelor's degree in Data Science and Big Data Technology. At CQU, I was advised by Prof. [Haibo Hu](http://www.cse.cqu.edu.cn/info/2030/2497.htm) and was part of the [CQU-VIVA Lab](http://www.cquviva.cn/).
+<br><br>
+My research interests lie in Visual Analytics and Human-Computer Interaction. Specifically, I aim to advance *intelligent education* through visualization and interaction techniques. I'm exploring research related to human-AI collaboration with large language models.
+<br><br>
+<span class="bounce">🙋🏻‍♀️ I am actively seeking for PhD position of 25Fall!</span>
 
-
-My research interests lie in  
+</div>
 
 </div>
 
 
-</div>
-
-<!--During my first year at UW, I received support from the [Fulbright program](https://en.wikipedia.org/wiki/Fulbright_Program). In 2013, I received my B.S. from [Hasso Plattner Institute](https://hpi.de/). I am a scholar of the [German National Academic Foundation](http://www.studienstiftung.de/). I have worked with the [Open Knowledge Foundation](http://www.okfn.org), [Google Research](https://ai.google/research/), and [Microsoft Research](https://www.microsoft.com/en-us/research/group/vibe/). Details are in my [CV]({{ "/cv/" | relative_url }}).-->
-
-## Featured <a href="{{ "/projects/" | relative_url }}">Projects</a>
+## <a href="{{ "/projects/" | relative_url }}">Projects</a>
 
 <div class="featured-projects">
   {% assign sorted_projects = site.data.projects | sort: 'highlight' %}
@@ -44,12 +46,12 @@ My research interests lie in
   {% endfor %}
 </div>
 
-<a href="{{ "/projects/" | relative_url }}" class="button">
+<!--<a href="{{ "/projects/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
   Show More Projects
-</a>
+</a>-->
 
-## Featured <a href="{{ "/publications/" | relative_url }}">Publications</a>
+## <a href="{{ "/publications/" | relative_url }}">Publications</a>
 
 <div class="featured-publications">
   {% assign sorted_publications = site.publications | sort: 'year' | reverse %}
@@ -65,7 +67,8 @@ My research interests lie in
   {% endfor %}
 </div>
 
-<a href="{{ "/publications/" | relative_url }}" class="button">
+<!--<a href="{{ "/publications/" | relative_url }}" class="button">
   <i class="fas fa-chevron-circle-right"></i>
   Show All Publications
-</a>
+</a>-->
+
