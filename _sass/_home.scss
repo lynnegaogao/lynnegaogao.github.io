@@ -11,29 +11,103 @@
   .columns {
     display: flex;
     flex-direction: row;
+    gap: 1em; /* 增加元素之间的间距 */
+  }
 
-    .intro {
-      flex: 1;
-      font-size: 1.1em;
-    } 
+  .me {
+    flex: 0 1 220px; /* 确保 .me 不会被压缩，最小宽度为220px */
+    margin-right: $spacing-unit;
+    margin-bottom: $spacing-unit;
+    font-size: 0.9em;
+    text-align: left;
 
-    .me {
-      margin-right: $spacing-unit;
-      margin-bottom: $spacing-unit;
-
-      font-size: 0.9em;
-      text-align: center;
-
-      picture, img {
-        width: 220px;
-        height: 220px;
-        border-radius: 6px;
-      }
-
-      ul {
-        margin-top: 16px;
-      }
+    picture, img {
+      width: 220px;
+      height: 220px;
+      border-radius: 6px;
     }
+
+    ul {
+      margin-top: 16px;
+    }
+  }
+
+  .intro {
+    flex: 1; /* 让 .intro 占据剩余空间 */
+    font-size: 1.1em;
+  }
+
+  //.news {
+  //  max-height: 200px; /* 固定高度 */
+  //  overflow-y: auto; /* 当内容超出时显示垂直滚动条 */
+  //  padding-right: 10px; /* 防止滚动条覆盖内容 */
+  //  ul {
+  //    list-style: none;
+  //    margin-left: 0;
+  
+  //    li {
+  //      margin-bottom: 0.2em;
+  
+  //      .news-item {
+  //        display: flex;
+  //        justify-content: space-between;
+  //      }
+  
+  //      .news-content {
+  //        flex: 1;
+          
+  //      }
+  
+  //      .news-date {
+  //        margin-left: 1em;
+  //        color: grey;
+  //        font-size: 0.8em;
+  //      }
+  
+  //      time {
+  //        display: block;
+  //        color: grey; /* 使用具体颜色值或变量 */
+  //        font-size: 0.8em;
+  //      }
+  //    }
+  //  }
+  //}
+
+  .news {
+    max-height: 105px; /* 固定高度 */
+    overflow-y: auto; /* 当内容超出时显示垂直滚动条 */
+    padding-right: 10px; /* 防止滚动条覆盖内容 */
+  }
+
+  .news-content ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+  .news-content li {
+    margin-bottom: 0.2em;
+  }
+
+  .news-item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .news-text {
+    flex: 1;
+  }
+
+  .news-date {
+    margin-left: 1em;
+    color: grey;
+    font-size: 0.8em;
+  }
+
+  time {
+    display: block;
+    color: grey;
+    font-size: 0.8em;
   }
 
   .button {
@@ -158,23 +232,6 @@
     }
   }
 
-  .news {
-    ul {
-      list-style: none;
-      margin-left: 0;
-
-      li {
-        margin-bottom: 1em;
-      }
-
-      time {
-        display: block;
-        color: $grey-color;
-        font-size: 0.8em;
-      }
-    }
-  }
-
   .travel {
     padding-left: $spacing-unit;
 
@@ -244,9 +301,10 @@
   }
 }
 
+
 .bounce {
   display: inline-block;
-  animation: bounce 1s infinite;
+  animation: bounce 1.2s infinite;
   //font-style: italic; /* 斜体 */
-  color: #ff8400b6; /* 使用橙红色 */
+  color: #2e6ca3;
 }
