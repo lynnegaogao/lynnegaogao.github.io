@@ -24,7 +24,7 @@ class: home
 </div>
 
 <div class="intro" markdown="1">
-Hello, I'm Lin Gao (Lynne), a master candidate at the School of Data Science, [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I'm a member of the [FDUVIS Lab](https://fduvis.net/), where I work under the supervision of Prof. [Siming Chen](http://simingchen.me/). In 2023, I graduated from [Chongqing University (CQU)](https://english.cqu.edu.cn/) with a bachelor's degree in Data Science and Big Data Technology. At CQU, I was advised by Prof. [Haibo Hu](http://www.cse.cqu.edu.cn/info/2030/2497.htm) and was part of the [CQU-VIVA Lab](http://www.cquviva.cn/).
+Hello, I'm Lin Gao (Lynne, 高琳), a master candidate at the School of Data Science, [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I'm a member of the [FDUVIS Lab](https://fduvis.net/), where I work under the supervision of Prof. [Siming Chen](http://simingchen.me/). In 2023, I graduated from [Chongqing University (CQU)](https://english.cqu.edu.cn/) with a bachelor's degree in Data Science and Big Data Technology. At CQU, I was advised by Prof. [Haibo Hu](http://www.cse.cqu.edu.cn/info/2030/2497.htm) and was part of the [CQU-VIVA Lab](http://www.cquviva.cn/).
 <br><br>
 My research interests lie in Visual Analytics and Human-Computer Interaction. Specifically, I aim to advance *intelligent education* through visualization and interaction techniques. I'm exploring research related to human-AI collaboration with large language models.
 <br><br>
