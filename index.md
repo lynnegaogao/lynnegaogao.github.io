@@ -32,7 +32,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
 
 </div>
 
-
+</div>
 
 
 ## <a href="{{ "/projects/" | relative_url }}">Projects</a>
