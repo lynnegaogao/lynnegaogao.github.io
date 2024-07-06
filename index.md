@@ -30,14 +30,14 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
 <br><br>
 <span class="bounce">🙋🏻‍♀️ I am actively seeking for PhD position of 25Fall!</span>
 
-<div class="news" markdown="1">
+<!--<div class="news" markdown="1">-->
 ## News
 
 - **2024-07-01**: Received the Best Paper Award at the XYZ Conference.
 - **2024-06-15**: Presented at the ABC Workshop on Visual Analytics.
 - **2024-05-20**: Started a new research project on intelligent education.
 
-</div>
+<!--</div>-->
 
 </div>
 
