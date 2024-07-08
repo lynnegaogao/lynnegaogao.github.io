@@ -8,7 +8,7 @@
   }
 
   strong, h1, h2, h3, h4 {
-    font-weight: 500;
+    font-weight: 00;
 
     &, a {
       color: $dark-text-color;
@@ -21,19 +21,19 @@
   }
 
   h1, h2, .pub-type {
-    color: $brand-color;
+    color: #3477ad;
     margin: 1rem 0 .2rem 0;
   }
 
   h1, h1>a:hover {
     margin-top: 2rem;
-    font-weight: 600;
+    font-weight: 400;
     text-decoration: none;
-    font-size: 2.5rem;
+    //font-size: 2.5rem;
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   h2 a {
@@ -70,7 +70,7 @@
   }
 
   .pub-type {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-bottom: 0.4rem;
   }
 

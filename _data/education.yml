@@ -1,22 +1,15 @@
-- university: University of Washington
-  years: 2015-2019
-  degree: Ph.D. in Computer Science & Engineering
-  location: Seattle, WA
+- university: Fudan University
+  years: 2023-Present
+  degree: M.S. in Application Statistics
+  location: Shanghai, CN
   description:
-    - Advised by **Jeffrey Heer** and **Bill Howe**.
-    - "Thesis: \"Interactive Systems for Scalable Visualization & Analysis\"."
-    - Member of the Interactive Data Lab and Database Group.
-- university: University of Washington
-  years: 2013-2015
-  degree: M.S. in Computer Science & Engineering
-  location: Seattle, WA
+    - School of Data Science. Advised by Prof. Siming Chen.
+    #- "Thesis: \"Interactive Systems for Scalable Visualization & Analysis\"."
+    - Member of the FDUVIS Lab.
+- university: Chongqing University
+  years: 2019-2023
+  degree: B.S. in Data Science and Big Data Technology
+  location: Chongqing, CN
   description:
-    - Advised by **Bill Howe** and **Jeffrey Heer**.
-- university: Hasso Plattner Institute
-  years: 2010-2013
-  degree: B.S. in IT-Systems Engineering
-  location: Potsdam, Germany
-  description:
-    - "Thesis: \"Algorithms for the Visualization of Software System Evolution\"."
-    - "GPA: 4.0 (1.0 in German system), highest distinction, rank 1/74"
-    - Advanced classes on database implementation, computational geometry, architecture, and logic.
+    - Advised by Prof. Haibo Hu.
+    - GPA:3.85/4.00 (Top 3%). Outstanding Undergraduate Student.

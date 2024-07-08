@@ -6,59 +6,26 @@ title: CV
 
 <section class="container">
 
-<h1><a href="{{ absolute_url }}/">Dominik Moritz</a></h1>
+<h1><a href="{{ absolute_url }}/">Lin Gao (Lynne, 高琳)</a></h1>
 
 <small class="live-link">Last updated in <time datetime="{{ site.time }}">{{ site.time | date: '%B %Y'}}</time>. Get the latest version at <a href="{{ '/cv' | absolute_url }}">www.domoritz.de/cv</a>.</small>
 
 <div class="header-columns">
   <div>
     <p>
-      Professor at CMU HCII and Research Scientist at Apple<br/>
+      First-year graduate student at FDU. <br/>
+      Address: 220 Handan Road, Shanghai, China. <br/>
+      Printable Version <a href="/papers/2022-AirPollutionTracing.pdf" class="download-button" download="Resume_Printable_Version.pdf"><i class="fas fa-download"></i></a>
     </p>
   </div>
   <div>
     <p class="right-align">
-      <a href="{{ absolute_url }}/">https://www.domoritz.de</a><br/>
-      <a href="mailto:domoritz@cmu.edu">domoritz@cmu.edu</a><br/>
-      <a href="https://twitter.com/domoritz">@domoritz</a><br/>
-      <a href="https://vis.social/@dom">@dom@vis.social</a>
+      <a href="{{ absolute_url }}/">https://www.lynnegao.me</a><br/>
+      <a href="mailto:lingao23@m.fudan.edu.cn">lingao23@m.fudan.edu.cn</a><br/>
+      <a href="https://twitter.com/lynnegaogao">@Lynne</a>
     </p>
   </div>
 </div>
-
-
-<h2>Research Area</h2>
-
-<p>
-To enhance people's ability to understand and communicate large and complex data, I develop methods that richly integrate the capabilities of both people and machines. I combine methods from <strong>visualization</strong>, <strong>data management</strong>, <strong>programming languages</strong>, and <strong>human-computer interaction</strong> to enable effective methods for data analysis and communication. My systems have won awards at premier academic venues, and are used by journalists, data enthusiasts, developers, educators, and the data science community.
-</p>
-
-
-<h2>Positions</h2>
-
-{% assign filtered_positions = site.data.positions | where_exp:'item','item.hidden == null' %}
-{% for pos in filtered_positions %}
-  <div class="date-container">
-    <span class="date">{{ pos.years | replace: "-", "–" }}</span>
-    <strong class="fill">{{pos.company}}</strong>
-    <span class="right">{{ pos.location }}</span>
-  </div>
-  <span>
-    {{pos.title}}{% if pos.short_desc %}, {{ pos.short_desc | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}
-  </span>
-  <!-- <p>
-    {% if pos.mentors %}
-      Mentor{% if pos.mentors.size > 1 %}s{% endif %}: {% for mentor in pos.mentors %}
-        {% include person person=mentor %}{% unless forloop.last %}, {% endunless %}
-      {% endfor %}<br/>
-    {% endif %}
-    {{ pos.description | markdownify | remove: '<p>' | remove: '</p>' }}
-    {% if pos.skills %}
-    <small class="muted">[{% for skill in pos.skills %}{{ skill }}{% unless forloop.last %}, {% endunless %}{% endfor %}]</small>
-    {% endif %}
-  </p> -->
-{% endfor %}
-
 
 <h2>Education</h2>
 
@@ -75,6 +42,19 @@ To enhance people's ability to understand and communicate large and complex data
   </p>
 {% endfor %}
 
+<h2>Experience</h2>
+{% for ed in site.data.experience %}
+  <div class="date-container">
+    <span class="date">{{ ed.years | replace: "-", "–" }}</span>
+    <strong class="fill">{{ ed.degree }}, {{ ed.university }}</strong>
+    <span class="right">{{ ed.location }}</span>
+  </div>
+  <p>
+    {% for des in ed.description %}
+      <span>{{ des | markdownify | remove: '<p>' | remove: '</p>' }}</span>{% unless forloop.last %}<br/>{% endunless %}
+    {% endfor %}
+  </p>
+{% endfor %}
 
 <h2>Notable Awards</h2>
 
@@ -102,10 +82,8 @@ To enhance people's ability to understand and communicate large and complex data
       {% assign counter = counter | plus: 1 %}
     {% endif %}
   {% endfor %}
-
-  <h3 class="pub-type">
-    {{ type }}
-  </h3>
+  
+ 
 
   {% for pub in sorted_pubs %}
     {% if pub.type[0] == type %}
@@ -163,52 +141,6 @@ To enhance people's ability to understand and communicate large and complex data
 {% endfor %}
 
 
-<h2>Patents</h2>
-
-{% for patent in site.data.patents %}
-  <div class="date-container">
-    <span class="date">{{ patent.date | date: "%b %Y" }}</span>
-    <h3><a href="{{ patent.url }}">{{ patent.title }}</a></h3>
-  </div>
-  <div class="patent">
-    <p>
-      {% for author in patent.authors %}
-        {% include person person=author %}{% unless forloop.last %}, {% endunless %}
-      {% endfor %}
-    </p>
-  </div>
-{% endfor %}
-
-
-<h2>Student Mentoring</h2>
-
-{% assign filtered_mentoring = site.data.mentoring | where_exp:'item','item.hidden == null' %}
-{% for mentor in filtered_mentoring %}
-  {% if mentor.names %}
-    <div class="date-container">
-      <span class="date">{{ mentor.year | replace: "-", "–" }}</span>
-      <h3>{{ mentor.relation }}</h3>
-      <span class="right">{{ mentor.location }}</span>
-    </div>
-    {% if mentor.note %}
-      <p class="muted">{{ mentor.note }}</p>
-    {% endif %}
-    <ul>
-    {% for person in mentor.names %}
-      <li>{% include person person=person %}</li>
-    {% endfor %}
-    </ul>
-  {% else %}
-    <div class="date-container">
-      <span class="date">{{ mentor.year | replace: "-", "–" }}</span>
-      <h3>{% include person person=mentor.name %}</h3>
-      <span class="right">{{ mentor.location }}</span>
-    </div>
-    <p>{{ mentor.relation }}. {% if mentor.note %}<span class="muted">{{ mentor.note }}</span>{% endif %}</p>
-  {% endif %}
-{% endfor %}
-
-
 <h2>Talks  <a href="{{ '/talks/' | absolute_url }}">[Interactive Version]</a></h2>
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
@@ -225,27 +157,6 @@ To enhance people's ability to understand and communicate large and complex data
 {% endfor %}
 
 
-<h2>Teaching</h2>
-
-{% for teach in site.data.teaching %}
-  <div class="date-container">
-    <span class="date">{{ teach.year }}</span>
-    <strong class="fill">{{ teach.title }}</strong>
-    <span class="right">{{ teach.location }}</span>
-  </div>
-  <p>
-    {% if teach.students %}
-      {% if teach.role %}{{ teach.role }}{% endif %}{% if teach.professor %} for {% include person person=teach.professor %}{% endif %},
-      {{ teach.students }}
-      <br/>
-    {% endif %}
-    <span class="muted">
-      {{ teach.description | markdownify | remove: '<p>' | remove: '</p>' }}
-    </span>
-  </p>
-{% endfor %}
-
-
 <h2>Service</h2>
 
 <p>
@@ -258,59 +169,5 @@ To enhance people's ability to understand and communicate large and complex data
   Member of the <a href="https://frictionlessdata.io/">Frictionless Data</a> working group that aims to submit a specification to the <a href="https://www.ietf.org/">IETF</a>. -->
 </p>
 
-
-<!-- <h2>Relevant Coursework</h2>
-
-{% for institution in site.data.courses %}
-<div>
-  <h3>{{ institution.title }}</h3>
-  <div>
-    <ul>
-      {% for course in institution.courses %}<li>{{ course.title }}{% if course.with %}<span class="muted"> ({% include person person=course.with %})</span>{% endif %}</li>{% endfor %}
-    </ul>
-  </div>
-</div>
-{% endfor %} -->
-
-
-<!-- <h2>References</h2>
-
-<div class="refs">
-  <p>
-    <strong>Jeffrey Heer</strong><br/>
-    Professor of Computer Science & Engineering<br/>
-    <i>University of Washington</i><br/>
-    <a href="https://homes.cs.washington.edu/~jheer/">homes.cs.washington.edu/~jheer/</a>
-  </p>
-
-  <p>
-    <strong>Bill Howe</strong><br/>
-    Professor at the Information School<br/>
-    <i>University of Washington</i><br/>
-    <a href="https://faculty.washington.edu/billhowe/">faculty.washington.edu/billhowe/</a>
-  </p>
-
-  <p>
-    <strong>Danyel Fisher</strong><br/>
-    Principal Design Researcher<br/>
-    <i>Honeycomb</i><br/>
-    Former Senior Researcher at Microsoft Research<br/>
-    <a href="https://danyelfisher.info/">danyelfisher.info/</a>
-  </p>
-
-  <p>
-    <strong>Tim Kraska</strong><br/>
-    Professor of Electrical Engineering & Computer Science<br/>
-    <i>Massachusetts Institute of Technology</i><br/>
-    <a href="https://people.csail.mit.edu/kraska/">people.csail.mit.edu/kraska/</a>
-  </p>
-
-  <p>
-    <strong>Steven Franconeri</strong><br/>
-    Professor of Psychology<br/>
-    <i>Northwestern University</i><br/>
-    <a href="https://psychology.northwestern.edu/people/faculty/core/profiles/steven-franconeri.html">psychology.northwestern.edu/people/faculty/core/profiles/steven-franconeri.html</a>
-  </p>
-</div> -->
 
 </section>

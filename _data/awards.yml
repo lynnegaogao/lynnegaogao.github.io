@@ -1,31 +1,21 @@
-- name: IEEE VIS Best Paper Honorable Mentions
+- name: Outstanding Freshman Scholarship
   years: 2023
-  description: "Three awards for two full and one short paper."
-- name: ACM CHI Best Paper Award
+  description: ""
+- name: Outstanding Undergraduate Thesis
+  years: 2023
+  description: "Thesis: Interactive Visual Tutorial of the Transformer Model for Non-experts."
+- name: Outstanding Undergraduate Student
+  years: 2023
+  description: "" 
+- name: Outstanding Programme (Top 1%)
   years: 2022
-  description: "For \"Neo: Generalizing Confusion Matrix Visualization to Hierarchical and Multi-Output Labels\"."
-- name: IEEE VGTC Outstanding Dissertation Award
-  years: 2020
-  description: "For my thesis on \"Interactive Systems for Scalable Visualization and Analysis\"."
-- name: InfoVis Best Paper
-  years: 2018
-  description: "For \"Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco\"."
-- name: InfoVis Best Paper
-  years: 2016
-  description: "For \"Vega-Lite: A Grammar of Interactive Graphics\"."
-- name: Fulbright Fellowship
-  years: 2013-2014
-  sponsor: Bureau of Educational and Cultural Affairs
-  description: Highly competitive, merit-based grant for international educational exchange for students, scholars, teachers and scientists.
-- name: DAAD Scholarship
-  years: 2013
-  sponsor: German Academic Exchange Service (DAAD)
-  description: Scholarship to study at a North American university for one academic year, covering tuition and living expenses.
-- name: Studienstiftung des Deutschen Volkes
-  years: 2010-2015
-  sponsor: Studienstiftung des Deutschen Volkes, Bonn
-  description: The German National Academic Foundation grants prestigious scholarships to students with outstanding academic achievements. Merit-based grant for B.S. and M.S. studies.
-- name: Hasso Plattner Scholarship
-  years: 2013
-  sponsor: Hasso Plattner Institute, Potsdam
-  description: One-year scholarship awarded to the highest performing graduates of each year.
+  description: "15th National College Students Innovation and Entrepreneurship Training Program."
+- name: National First Prize
+  years: 2022
+  description: "9th China Visualization and Visual Analysis Conference (ChinaVis 2022) Challenge."
+- name: National Third Prize
+  years: 2022
+  description: "15th National Computer Design Competition."
+- name: Outstanding Merit Student Scholarship, CQU
+  years: 2019-2023
+  description: ""

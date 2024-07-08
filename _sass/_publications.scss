@@ -128,6 +128,7 @@
   }
 
   .publication {
+    display: flex;
     margin-bottom: 2em;
 
     h3 {
@@ -236,3 +237,24 @@
   font-weight: bold; /* 加粗字体 */
 }
 
+.publication-image {
+  display: block;
+  width: 200px;  /* 固定宽度 */
+  height: 100px;
+  margin-right: 15px;
+  border: 1px solid #f1f1f1;
+
+  background-size: cover;
+  background-position: top left;
+  overflow: hidden; /* 防止背景图片在容器外显示 */
+
+  transition: background-position 1.5s ease; /* 平滑过渡背景位置 */
+
+  &:hover {
+      background-position: bottom right;
+  }
+}
+
+.publication-content {
+  flex: 1 1 auto; /* 允许内容区域填充剩余空间 */
+}
