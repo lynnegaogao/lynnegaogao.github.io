@@ -48,6 +48,14 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
       <time class="news-date">2024-06-20</time>
     </div>
   </li>
+   <li>
+    <div class="news-item">
+      <div class="news-content">
+        - Present our work <i>TransforLearn</i> on the China-R Conference.
+      </div>
+      <time class="news-date">2023-11-30</time>
+    </div>
+  </li>
   <li>
     <div class="news-item">
       <div class="news-content">
@@ -75,7 +83,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <li>
     <div class="news-item">
       <div class="news-content">
-      Graduate from CQU with a bachelor's degree.
+      - Graduate from CQU with a bachelor's degree.
       </div>
       <time class="news-date">2023-06-28</time>
     </div>

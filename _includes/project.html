@@ -31,5 +31,8 @@
     {% if project.recording %}
       <a href="{{ project.recording }}"><i class="fas fa-video" aria-hidden="true"></i> Recording</a>
     {% endif %}
+    {% if project.slides %}
+    <a href="{{ project.slides }}"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides</a>
+    {% endif %}
   </div>
 </div>
