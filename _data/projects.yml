@@ -26,7 +26,7 @@
   slides: /slides/2022-ChinaVis-CriminalNetworkAssets.pdf
   image: network.png
   description: "This project uses graph theory and community detection algorithms to mine sub-graphs and identify core assets and connections, enhancing governance through a strategic visual analysis framework."
-  #highlight: 4
+  #highlight: 3
 
 - title: Air Pollution Tracing  
   #url: https://developer.apple.com/documentation/Charts

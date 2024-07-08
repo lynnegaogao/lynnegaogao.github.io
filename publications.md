@@ -8,7 +8,7 @@ class: pubs
 {:.hidden}
 # Publications
 
-<div id="facets" class="hidden">
+<!--<div id="facets" class="hidden">
   <div class="facet" id="venue_tags">
     <strong>Venue</strong>
     <ul></ul>
@@ -43,17 +43,21 @@ class: pubs
 
 <p id="clear-filters" class="hidden">
   <i class="fas fa-times-circle" aria-hidden="true"></i> Clear all filters. <span id="count_hidden">X</span> of <span id="count_total">X</span> publications are hidden by the filters.
-</p>
+</p>-->
 
 {% assign pubyears = site.publications | group_by:"year"  %}
 {% assign sorted_pubyears = pubyears | reverse %}
 {% for year in sorted_pubyears %}
-## {{ year.name }}
-{:#y{{ year.name }} .year}
-{% for pub in year.items %}
-  {% include publication.html pub=pub %}
+  <div class="year-block">
+  <hr class="year-divider" />
+    {% assign sorted_pubs = year.items | sort: 'title' %}
+    {% for pub in sorted_pubs %}
+      {% include publication.html pub=pub %}
+    {% endfor %}
+    <div class="year-label">{{ year.name }}</div>
+  </div>
 {% endfor %}
-{% endfor %}
+
 
 <!-- <script src="https://cdn.jsdelivr.net/npm/itemsjs@1.0.40/dist/itemsjs.min.js"></script> -->
 <script>

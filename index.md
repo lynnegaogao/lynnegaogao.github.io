@@ -156,9 +156,48 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
     {% if pub.highlight %}
       <a href="{{ pub.pdf }}" class="publication">
         <strong>{{ pub.title }}</strong>
-        <span class="authors">{% for author in pub.authors %}{{ author }}{% unless forloop.last %}, {% endunless %}{% endfor %}</span>.
+        <br>
+        <span class="authors">
+          {% for author in pub.authors %}
+            {% if author == "Lin Gao" %}
+              <strong style="text-decoration: underline;">{{ author }}</strong>
+            {% else %}
+            {{ author }}
+          {% endif %}
+          {% unless forloop.last %}, {% endunless %}
+          {% endfor %}
+        </span>.
+        <br>
         <i>{% if pub.venue %}{{ pub.venue }}, {% endif %}{{ pub.year }}</i>.
         {% for award in pub.awards %}<br/><span class="award"><i class="fas fa-{% if award == "Best Paper Award" %}trophy{% else %}award{% endif %}" aria-hidden="true"></i> {{ award }}</span>{% endfor %}
+        <div class="extra-links">
+          {% if pub.short_doi %}
+            <a href="http://doi.org/{{ pub.short_doi }}">
+              <i class="fas fa-book" aria-hidden="true"></i> DOI
+            </a>
+          {% endif %}
+          <!-- PDF 图标 -->
+          {% if pub.pdf %}
+            <a href="{{ pub.pdf }}" class="icon-link">
+              <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
+            </a>
+          {% endif %}
+          <!-- 项目网站图标 -->
+          {% if pub.link %}
+            <a href="{{ pub.link }}" class="icon-link">
+              <i class="fas fa-link" aria-hidden="true"></i> Project
+            </a>
+          {% endif %}
+          <!-- 视频图标 -->
+          {% if pub.video %}
+            <a href="{{ pub.video }}" class="icon-link">
+              <i class="fas fa-video" aria-hidden="true"></i> Video
+            </a>
+          {% endif %}
+          {% if pub.slides %}
+            <a href="{{ project.slides }}"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides</a>
+          {% endif %}
+        </div>
       </a>
     {% endif %}
   {% endfor %}

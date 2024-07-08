@@ -144,7 +144,7 @@
     }
 
     .award-icon {
-      margin-right: 0.2em;
+      margin-right: 30px;
       font-size: 1.2em;
 
       &.fa-trophy {
@@ -200,7 +200,7 @@
       font-size: 0.9em;
 
       a {
-        margin-right: 1em;
+        margin-right: 0.5em;
         white-space: nowrap;
 
         // avoid the extra whitespace after the link text
@@ -216,3 +216,23 @@
     }
   }
 }
+.year-block {
+  position: relative;
+  padding-right: 20px; /* 为年份标签提供空间 */
+}
+
+.year-divider {
+  border-top: 1px dashed #ccc; /* 设置虚线 */
+  margin-top: 20px; /* 根据需要调整间距 */
+  margin-bottom: 10px; /* 在年份标签之前留出空间 */
+}
+
+.year-label {
+  position: absolute;
+  right: 0; /* 年份标签靠右显示 */
+  top: -12px; /* 调整这个值以正确定位年份标签 */
+  background: #fff; /* 背景颜色，用来覆盖虚线 */
+  padding: 0 10px; /* 年份两侧的空间 */
+  font-weight: bold; /* 加粗字体 */
+}
+
