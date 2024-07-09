@@ -15,13 +15,13 @@ title: CV
     <p>
       First-year graduate student at FDU. <br/>
       Address: 220 Handan Road, Shanghai, China. <br/>
-      Printable Version <a href="/papers/2022-AirPollutionTracing.pdf" class="download-button" download="Resume_Printable_Version.pdf"><i class="fas fa-download"></i></a>
+      Printable Version <a href="/assets/cv_0709update.pdf" class="download-button" download="Resume_Printable_Version.pdf"><i class="fas fa-download"></i></a>
     </p>
   </div>
   <div>
     <p class="right-align">
       <a href="{{ absolute_url }}/">https://www.lynnegao.me</a><br/>
-      <a href="mailto:lingao23@m.fudan.edu.cn">lingao23@m.fudan.edu.cn</a><br/>
+      <a href="mailto:lgao.lynne@gmail.com">lgao.lynne@gmail.com</a><br/>
       <a href="https://twitter.com/lynnegaogao">@Lynne</a>
     </p>
   </div>
@@ -70,7 +70,7 @@ title: CV
 {% endfor %}
 
 
-<h2>Publications <a href="{{ '/publications/' | absolute_url }}">[Interactive Version]</a></h2>
+<h2>Publications <a href="{{ '/publications/' | absolute_url }}"></a></h2>
 
 {% assign sorted_pubs = site.publications | reverse %}
 
@@ -83,7 +83,11 @@ title: CV
     {% endif %}
   {% endfor %}
   
- 
+  {% if counter >1 %}
+  <h4 class="pub-type">
+    {{ type }}
+  </h4>
+  {% endif %}
 
   {% for pub in sorted_pubs %}
     {% if pub.type[0] == type %}
@@ -92,7 +96,14 @@ title: CV
         <div class="ref-container">{{ type | slice: 0 }}{{ counter }}</div>
         <strong class="fill">{% if pub.pdf %}<a href="{{ pub.pdf }}">{{ pub.title }}</a>{% elsif pub.arxiv %}<a href="https://arxiv.org/pdf/{{ pub.arxiv | cgi_escape }}.pdf">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</strong>
         <div>
-          {% for author in pub.authors %}{% include person person=author %}{% unless forloop.last %}, {% endunless %}{% endfor %}.
+          {% for author in pub.authors %}
+        {% if author == "Lin Gao" %}
+        <strong style="text-decoration: underline;">{{ author }}</strong>
+        {% else %}
+        {{ author }}
+        {% endif %}
+        {% unless forloop.last %}, {% endunless %}
+        {% endfor %}.
           {% if pub.venue or pub.description %}<i>{% if pub.description %}{{ pub.description | markdownify | remove: '<p>' | remove: '</p>' }}{% endif %}{{ pub.venue }}</i>{% if pub.venue %},{% endif %} {% endif %}{{ pub.year }}.
 
           {% if pub.link or pub.pdf or pub.arxiv or pub.video or pub.blog or pub.slides or pub.doi %}
@@ -141,7 +152,7 @@ title: CV
 {% endfor %}
 
 
-<h2>Talks  <a href="{{ '/talks/' | absolute_url }}">[Interactive Version]</a></h2>
+<!--<h2>Talks & Presentations  <a href="{{ '/talks/' | absolute_url }}">[Interactive Version]</a></h2>
 
 {% assign talktitles = site.data.talks | group_by:"title" %}
 {% for title in talktitles %}
@@ -154,20 +165,17 @@ title: CV
 
     </div>
   {% endfor %}
-{% endfor %}
+{% endfor %}-->
+<h2>Skill</h2>
 
+<p><strong>Programming Skills:</strong> Python, Pytorch, JavaScript, Vue.js, D3.js, Echarts.js, Latex</p>
+<p><strong>Design Skills:</strong> Figma, Adobe Photoshop, Adobe Illustrator, Adobe Lightroom, Final Cut Pro</p>
 
 <h2>Service</h2>
 
-<p>
-  Reviewer for ACM CHI, IEEE VIS, TVCG, EuroVis, PacificVis, Computers & Graphics, HILDA, and DSIA.
-  Program committee for <a href="http://hilda.io/2018/">HILDA 2018</a>, <a href="http://hilda.io/2019/">HILDA 2019</a>, and <a href="http://hilda.io/2020/">HILDA 2020</a>, and program chair for <a href="https://hilda.io/2022/">HILDA 2022</a> and <a href="https://hilda.io/2023/">HILDA 2023</a> at SIGMOD.
-  Organizer of <a href="https://www.interactive-analysis.org/year/2018/">DSIA 2018</a> and <a href="https://www.interactive-analysis.org/">DSIA 2019</a> at VIS.
-  Session chair at CHI 2019, VIS 2019, VIS 2020, VIS 2021, VIS 2023. Program committee at VIS 2020 and 2021. Organizing committee for VIS 2022, VIS 2023, VIS 2024.
-  Maintainer of many open source projects. <a href="https://arrow.apache.org/committers/">Apache Arrow committer</a>.
-  <!-- <br/>
-  Member of the <a href="https://frictionlessdata.io/">Frictionless Data</a> working group that aims to submit a specification to the <a href="https://www.ietf.org/">IETF</a>. -->
-</p>
+<p><strong>Conference Reviewer:</strong> ChinaVis (2024)</p>
+<p><strong>Volunteer:</strong> ChinaVis (2024)</p>
+
 
 
 </section>

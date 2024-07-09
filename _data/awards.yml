@@ -1,21 +1,24 @@
-- name: Outstanding Freshman Scholarship
+- name: Outstanding Freshman Scholarship, FDU
   years: 2023
   description: ""
-- name: Outstanding Undergraduate Thesis
+- name: Outstanding Graduate Thesis
   years: 2023
-  description: "Thesis: Interactive Visual Tutorial of the Transformer Model for Non-experts."
-- name: Outstanding Undergraduate Student
+  description: "Thesis: Interactive Visual Tutorial of the Transformer Model for Non-experts"
+- name: Outstanding Graduate Student
   years: 2023
   description: "" 
-- name: Outstanding Programme (Top 1%)
+- name: Outstanding Programme of Innovation and Entrepreneurship Training
   years: 2022
-  description: "15th National College Students Innovation and Entrepreneurship Training Program."
-- name: National First Prize
+  description: "Focused on visual analysis methods for high-dimensional time-series atmospheric pollution"
+- name: National First Prize of ChinaVis 2022 Challenge
   years: 2022
-  description: "9th China Visualization and Visual Analysis Conference (ChinaVis 2022) Challenge."
-- name: National Third Prize
+  description: "Focuse on visual analysis for criminal network assets"
+- name: National Third Prize of National Computer Design
   years: 2022
-  description: "15th National Computer Design Competition."
-- name: Outstanding Merit Student Scholarship, CQU
+  description: "Focuse on a visual analysis system for the spatiotemporal distribution and transmission patterns of atmospheric pollution"
+- name: Outstanding Student Scholarship, CQU
   years: 2019-2023
   description: ""
+- name: Outstanding Student and Outstanding League Member, CQU
+  years: 2019-2023
+  description: "" 
