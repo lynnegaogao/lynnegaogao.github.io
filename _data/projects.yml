@@ -1,7 +1,7 @@
 - title: Tailor-Mind
   #url: https://developer.apple.com/documentation/Charts
   #video: https://developer.apple.com/wwdc22/10136
-  paper: /papers/2024-TailorMind.pdf
+  paper: /papers/2024-TailorMind-VIS.pdf
   image: tailormind.png
   description: "Propose a framework for integrating fine-tuned LLMs into domain-specific visualization systems. Tailor-Mind applies this framework in education to facilitate self-regulated learning."
   highlight: 1

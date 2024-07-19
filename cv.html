@@ -74,7 +74,7 @@ title: CV
 
 {% assign sorted_pubs = site.publications | reverse %}
 
-{% assign types = "Conference|Journal|Book Chapter|Demo|Workshop|Thesis" | split: "|" %}
+{% assign types = "Journal|Conference|Book Chapter|Demo|Workshop|Thesis" | split: "|" %}
 {% for type in types %}
   {% assign counter = 1 %}
   {% for pub in sorted_pubs %}
