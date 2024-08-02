@@ -15,17 +15,19 @@ class: home
 </picture>
 
 {:.no-list}
-* <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email: {{ site.email }}</a>
-* <a href="https://github.com/lynnegaogao"><i class="fab fa-github" aria-hidden="true"></i> Github: lynnegaogao</a>
-* <a href="https://scholar.google.com/citations?user=9VqrBe0AAAAJ"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar: Lin Gao</a>
-* <a href="https://twitter.com/Lynnegaogao"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter: Lynnegaogao</a> 
+
+- <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email: {{ site.email }}</a>
+- <a href="https://github.com/lynnegaogao"><i class="fab fa-github" aria-hidden="true"></i> Github: lynnegaogao</a>
+- <a href="https://scholar.google.com/citations?user=9VqrBe0AAAAJ"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar: Lin Gao</a>
+- <a href="https://twitter.com/Lynnegaogao"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter: Lynnegaogao</a>
 </div>
 
 <!--<div class="content" markdown="1">-->
 <div class="intro" markdown="1">
-Hello, I'm Lin Gao (Lynne, 高琳), a first-year graduate student at the School of Data Science, [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I'm a member of the [FDUVIS Lab](https://fduvis.net/), where I work under the supervision of Prof. [Siming Chen](http://simingchen.me/). In 2023, I graduated from [Chongqing University (CQU)](https://english.cqu.edu.cn/) with a bachelor's degree in Data Science and Big Data Technology, where I was advised by Prof. [Haibo Hu](http://www.cse.cqu.edu.cn/info/2030/2497.htm) and was part of the [CQU-VIVA Lab](http://www.cquviva.cn/).
+Hello, I'm Lin Gao (Lynne, 高琳), a first-year graduate student at the School of Data Science, [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I'm a member of the [FDUVIS Lab](https://fduvis.net/), where I work under the supervision of Prof. [Siming Chen](http://simingchen.me/). In 2023, I got my bachelor's degree in Data Science and Big Data Technology at [Chongqing University (CQU)](https://english.cqu.edu.cn/).
+<!--In 2023, I graduated from [Chongqing University (CQU)](https://english.cqu.edu.cn/) with a bachelor's degree in Data Science and Big Data Technology, where I was advised by Prof. [Haibo Hu](http://www.cse.cqu.edu.cn/info/2030/2497.htm) and was part of the [CQU-VIVA Lab](http://www.cquviva.cn/).-->
 <br><br>
-My research interests lie in Visual Analytics and Human-Computer Interaction. Specifically, I aim to advance *intelligent education* through visualization and interaction techniques. I'm exploring research related to human-AI collaboration with large language models.
+My research interests lie in Visual Analytics and Human-Computer Interaction. Specifically, I aim to advance **intelligent education** through visualization and interaction techniques. I'm exploring research related to human-AI collaboration with large language models.
 <br><br>
 📢 News    
 <span class="bounce">🙋🏻‍♀️ I am actively seeking for PhD position of 25Fall!</span>
@@ -133,12 +135,9 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
 </ul>
 </div>-->
 
-
 <!--</div>-->
 
-
 </div>
-
 
 ## <a href="{{ "/projects/" | relative_url }}">Projects</a>
 
@@ -205,6 +204,11 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
           {% if pub.slides %}
             <a href="{{ project.slides }}"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides</a>
           {% endif %}
+          {% if pub.arxiv %}
+      <a href="{{ pub.arxiv }}">
+        <i class="fas fa-archive" aria-hidden="true"></i> arXiv
+      </a>
+      {% endif %}
         </div>
       </a>
     {% endif %}
@@ -215,4 +219,3 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <i class="fas fa-chevron-circle-right"></i>
   Show All Publications
 </a>-->
-

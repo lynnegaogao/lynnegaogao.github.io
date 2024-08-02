@@ -112,11 +112,7 @@ title: CV
               <a href="{{ pub.pdf }}">
                 <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
               </a>
-            {% elsif pub.arxiv %}
-              <a href="https://arxiv.org/pdf/{{ pub.arxiv | cgi_escape }}.pdf">
-                <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
-              </a>
-            {% endif %}
+              {% endif %}
             {% if pub.link %}
               <a href="{{ pub.link }}">
                 <i class="fas fa-link" aria-hidden="true"></i> Project
@@ -136,10 +132,11 @@ title: CV
               <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
                 <i class="fas fa-book" aria-hidden="true"></i> Bibtex
               </a>
-            {% elsif pub.arxiv %}
-              <a href="https://arxiv2bibtex.org/?q={{ pub.arxiv | cgi_escape }}">
-                <i class="fas fa-book" aria-hidden="true"></i> Bibtex
-              </a>
+              {% endif %}
+            {% if pub.arxiv %}
+            <a href="{{ pub.arxiv }}">
+              <i class="fas fa-archive" aria-hidden="true"></i> arXiv
+            </a>
             {% endif %}
             </div>
           {% endif %}
