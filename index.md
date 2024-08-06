@@ -37,7 +37,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
 <li>
     <div class="news-item">
       <div class="news-content">
-        - Attend ChinaVis 2024 in Hong Kong and present our work <i>Tailor-Mind</i>.
+        - Attend ChinaVis 2024 and present our work <i>Tailor-Mind</i>.
       </div>
       <time class="news-date">2024-07-22</time>
     </div>
