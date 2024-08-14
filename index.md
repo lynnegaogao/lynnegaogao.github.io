@@ -45,6 +45,14 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <li>
     <div class="news-item">
       <div class="news-content">
+       ➭ Our work <i>Tailor-Mind</i> is accepted by VIS 2024.
+      </div>
+      <time class="news-date">2024-07-16</time>
+    </div>
+  </li>
+  <li>
+    <div class="news-item">
+      <div class="news-content">
         ➭ Arrive in Hong Kong and start my 3-months visit to HKUST VisLab.
       </div>
       <time class="news-date">2024-07-03</time>
