@@ -37,7 +37,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
 <li>
     <div class="news-item">
       <div class="news-content">
-        - Attend ChinaVis 2024 and present our work <i>Tailor-Mind</i>.
+       ➭ Attend ChinaVis 2024 and present our work <i>Tailor-Mind</i>.
       </div>
       <time class="news-date">2024-07-22</time>
     </div>
@@ -45,7 +45,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <li>
     <div class="news-item">
       <div class="news-content">
-        - Arrive in Hong Kong and start my 3-months visit to HKUST VisLab.
+        ➭ Arrive in Hong Kong and start my 3-months visit to HKUST VisLab.
       </div>
       <time class="news-date">2024-07-03</time>
     </div>
@@ -53,7 +53,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <li>
     <div class="news-item">
       <div class="news-content">
-        - Our work <i>FinDecipher</i> is accepted by ChinaVis 2024.
+        ➭ Our work <i>FinDecipher</i> is accepted by ChinaVis 2024.
       </div>
       <time class="news-date">2024-06-20</time>
     </div>
@@ -61,7 +61,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
    <li>
     <div class="news-item">
       <div class="news-content">
-        - Present our work <i>TransforLearn</i> on the China-R Conference.
+        ➭ Present our work <i>TransforLearn</i> on the China-R Conference.
       </div>
       <time class="news-date">2023-11-30</time>
     </div>
@@ -69,7 +69,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <li>
     <div class="news-item">
       <div class="news-content">
-      - Attend VIS 2023 in Melbourne and present our work <i>TransforLearn</i>.
+      ➭ Attend VIS 2023 in Melbourne and present our work <i>TransforLearn</i>.
       </div>
       <time class="news-date">2023-10-26</time>
     </div>
@@ -77,7 +77,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <li>
     <div class="news-item">
       <div class="news-content">
-      - Start my graduate study at the School of Big Data Science, FDU.
+      ➭ Start my graduate study at the School of Big Data Science, FDU.
       </div>
       <time class="news-date">2023-09-01</time>
     </div>
@@ -85,7 +85,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <li>
     <div class="news-item">
       <div class="news-content">
-      - Our work <i>TransforLearn</i> is accepted by VIS 2023.
+      ➭ Our work <i>TransforLearn</i> is accepted by VIS 2023.
       </div>
       <time class="news-date">2023-07-16</time>
     </div>
@@ -93,7 +93,7 @@ My research interests lie in Visual Analytics and Human-Computer Interaction. Sp
   <li>
     <div class="news-item">
       <div class="news-content">
-      - Graduate from CQU with a bachelor's degree.
+      ➭ Graduate from CQU with a bachelor's degree.
       </div>
       <time class="news-date">2023-06-28</time>
     </div>
