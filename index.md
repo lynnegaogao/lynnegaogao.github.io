@@ -53,7 +53,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
   <li>
     <div class="news-item">
       <div class="news-content">
-        ➭ Arrive in Hong Kong and start my 3-months visit to HKUST VisLab.
+        ➭ Arrive in Hong Kong and start my 3-months visit to <a href="http://vis.cse.ust.hk/" style="color: inherit; text-decoration: none;">HKUST VisLab</a>.
       </div>
       <time class="news-date">2024-07-03</time>
     </div>
