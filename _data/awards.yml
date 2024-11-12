@@ -1,10 +1,16 @@
+- name: China National Scholarship
+  years: 2024
+  description: ""
+- name: Outstanding Student, FDU
+  years: 2024
+  description: ""
 - name: Outstanding Freshman Scholarship, FDU
   years: 2023
   description: ""
-- name: Outstanding Graduate Thesis
+- name: Outstanding Graduate Thesis, Chongqing Province
   years: 2023
   description: "Thesis: Interactive Visual Tutorial of the Transformer Model for Non-experts"
-- name: Outstanding Graduate Student
+- name: Outstanding Graduate Student, CQU
   years: 2023
   description: "" 
 - name: Outstanding Programme of Innovation and Entrepreneurship Training

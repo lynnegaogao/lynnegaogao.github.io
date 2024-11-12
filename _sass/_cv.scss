@@ -111,9 +111,14 @@
     }
   }
 
+  //.muted, .muted a {
+  //  color: $grey-color;
+  //}
   .muted, .muted a {
     color: $grey-color;
-  }
+    font-size: 0.875em; /* 或者根据需要调整大小 */
+}
+
 
   .award {
     color: $yellow-color;

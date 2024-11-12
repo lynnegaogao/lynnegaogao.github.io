@@ -27,7 +27,7 @@ class: home
 Hello, I'm Lin Gao (Lynne, 高琳), a second-year graduate student at the School of Data Science, [Fudan University (FDU)](https://www.fudan.edu.cn/en/). I'm a member of the [FDUVIS Lab](https://fduvis.net/), where I work under the supervision of Prof. [Siming Chen](http://simingchen.me/). In 2023, I got my bachelor's degree in Data Science and Big Data Technology at [Chongqing University (CQU)](https://english.cqu.edu.cn/).
 <!--In 2023, I graduated from [Chongqing University (CQU)](https://english.cqu.edu.cn/) with a bachelor's degree in Data Science and Big Data Technology, where I was advised by Prof. [Haibo Hu](http://www.cse.cqu.edu.cn/info/2030/2497.htm) and was part of the [CQU-VIVA Lab](http://www.cquviva.cn/).-->
 <br><br>
-My research interests lie in Data Visualization, Human-AI Interaction and Human-Data Communication. Specifically, I aim to advance **intelligent education** and **data-driven storytelling** through visualization and interaction techniques. I'm exploring research related to human-AI collaboration with large language models.
+My research interests lie in Data Visualization, Human-AI Interaction and Human-Data Communication. Specifically, I aim to advance <span style="color: #F59E35;">**intelligent education**</span> and <span style="color: #F59E35;">**data-driven storytelling**</span> through visualization and interaction techniques. I'm exploring research related to human-AI collaboration with large language models.
 <br><br>
 📢 News    
 <span class="bounce">🙋🏻‍♀️ I am actively seeking for PhD position of 25Fall!</span>
@@ -37,7 +37,31 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
 <li>
     <div class="news-item">
       <div class="news-content">
-       ➭ Attend ChinaVis 2024 and present our work <i>Tailor-Mind</i>.
+       🥳 Awarded the China National Scholarship.
+      </div>
+      <time class="news-date">2024-11-11</time>
+    </div>
+  </li>
+<li>
+    <div class="news-item">
+      <div class="news-content">
+       👩‍💻 Attend VIS 2024 online and present our work <i>Tailor-Mind</i>.
+      </div>
+      <time class="news-date">2024-10-22</time>
+    </div>
+  </li>
+<li>
+    <div class="news-item">
+      <div class="news-content">
+       🎉 Our work <i>SimSpark</i> is accepted by CSCW 2025.
+      </div>
+      <time class="news-date">2024-09-22</time>
+    </div>
+  </li>
+<li>
+    <div class="news-item">
+      <div class="news-content">
+       🛳️ Attend ChinaVis 2024 and present our work <i>Tailor-Mind</i>.
       </div>
       <time class="news-date">2024-07-22</time>
     </div>
@@ -45,7 +69,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
   <li>
     <div class="news-item">
       <div class="news-content">
-       ➭ Our work <i>Tailor-Mind</i> is accepted by VIS 2024.
+       🎉 Our work <i>Tailor-Mind</i> is accepted by VIS 2024.
       </div>
       <time class="news-date">2024-07-16</time>
     </div>
@@ -53,7 +77,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
   <li>
     <div class="news-item">
       <div class="news-content">
-        ➭ Arrive in Hong Kong and start my 3-months visit to <a href="http://vis.cse.ust.hk/" style="color: inherit; text-decoration: none;">HKUST VisLab</a>.
+        😆 Arrive in Hong Kong and start my 3-months visit to <a href="http://vis.cse.ust.hk/" style="color: inherit; text-decoration: none;">HKUST VisLab</a>.
       </div>
       <time class="news-date">2024-07-03</time>
     </div>
@@ -61,7 +85,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
   <li>
     <div class="news-item">
       <div class="news-content">
-        ➭ Our work <i>FinDecipher</i> is accepted by ChinaVis 2024.
+        🎉 Our work <i>FinDecipher</i> is accepted by ChinaVis 2024.
       </div>
       <time class="news-date">2024-06-20</time>
     </div>
@@ -69,7 +93,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
    <li>
     <div class="news-item">
       <div class="news-content">
-        ➭ Present our work <i>TransforLearn</i> on the China-R Conference.
+        👩‍💻 Present our work <i>TransforLearn</i> on the China-R Conference.
       </div>
       <time class="news-date">2023-11-30</time>
     </div>
@@ -77,7 +101,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
   <li>
     <div class="news-item">
       <div class="news-content">
-      ➭ Attend VIS 2023 in Melbourne and present our work <i>TransforLearn</i>.
+      🦘 Attend VIS 2023 in Melbourne and present our work <i>TransforLearn</i>.
       </div>
       <time class="news-date">2023-10-26</time>
     </div>
@@ -85,7 +109,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
   <li>
     <div class="news-item">
       <div class="news-content">
-      ➭ Start my graduate study at the School of Big Data Science, FDU.
+      📚 Start my graduate study at the School of Big Data Science, FDU.
       </div>
       <time class="news-date">2023-09-01</time>
     </div>
@@ -93,7 +117,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
   <li>
     <div class="news-item">
       <div class="news-content">
-      ➭ Our work <i>TransforLearn</i> is accepted by VIS 2023.
+      🎉 Our work <i>TransforLearn</i> is accepted by VIS 2023.
       </div>
       <time class="news-date">2023-07-16</time>
     </div>
@@ -101,7 +125,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
   <li>
     <div class="news-item">
       <div class="news-content">
-      ➭ Graduate from CQU with a bachelor's degree.
+      🎓 Graduate from CQU with a bachelor's degree.
       </div>
       <time class="news-date">2023-06-28</time>
     </div>

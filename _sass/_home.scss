@@ -314,20 +314,42 @@
   }
 }
 
+//@keyframes bounce {
+//  0%, 100% {
+//      transform: translateX(0);
+//  }
+//  50% {
+//      transform: translateX(-5px);
+//  }
+//}
+
+
+//.bounce {
+//  display: inline-block;
+//  animation: bounce 1.2s infinite;
+//  //font-style: italic; /* 斜体 */
+//  color: #2e6ca3;
+//}
 @keyframes bounce {
   0%, 100% {
-      transform: translateX(0);
+    transform: translateX(0);
+    color: #f0af5f; /* 起始和结束颜色 */
+  }
+  25% {
+    color: #df81b0;
   }
   50% {
-      transform: translateX(-5px);
+    transform: translateX(-5px);
+    color: #be6ced;
+  }
+  75% {
+    color: #76e978;
   }
 }
-
 
 .bounce {
   display: inline-block;
-  animation: bounce 1.2s infinite;
-  //font-style: italic; /* 斜体 */
-  color: #2e6ca3;
+  animation: bounce 1.2s infinite, colorChange 1.2s infinite;
 }
+
 
