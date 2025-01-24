@@ -14,12 +14,25 @@
   description: "TransforLearn is an interactive visual tutorial tool that helps beginners learn the Transformer model through architecture-driven and task-driven explorations."
   highlight: 2
 
+- title: Educational Analogies
+  #url: https://chinavis.org/2022/challenge.html
+  #slides: /slides/2022-ChinaVis-CriminalNetworkAssets.pdf
+  image: eduanalogy.png
+  description: "Evaluate LLM-generated analogies in biology and physics with two-phrase studies, and presents a system to help teachers generate and refine analogies."
+  highlight: 3
+
+- title: SimSpark
+  #url: https://chinavis.org/2022/challenge.html
+  #slides: /slides/2022-ChinaVis-CriminalNetworkAssets.pdf
+  image: simspark.png
+  description: "SimSpark is an interactive system supporting simulation algorithms and interactive visual interfaces for creating small simulated social media platforms with customizable characters and social environments."
+  #highlight: 3
+
 - title: FinDecipher
   #url: https://developer.apple.com/documentation/Charts
   #video: https://developer.apple.com/wwdc22/10136
   image: findecipher.png
   description: "FinDecipher is interactive financial data decision‑making visual analysis system based on DuPont analysis and LLMs."
-  highlight: 3
 
 - title: Criminal Network Assets
   url: https://chinavis.org/2022/challenge.html
