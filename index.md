@@ -16,10 +16,10 @@ class: home
 
 {:.no-list}
 
-- <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email: {{ site.email }}</a>
-- <a href="https://github.com/lynnegaogao"><i class="fab fa-github" aria-hidden="true"></i> Github: lynnegaogao</a>
-- <a href="https://scholar.google.com/citations?user=9VqrBe0AAAAJ"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> Google Scholar: Lin Gao</a>
-- <a href="https://twitter.com/Lynnegaogao"><i class="fab fa-twitter" aria-hidden="true"></i> Twitter: Lynnegaogao</a>
+- <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i>&nbsp;Email: {{ site.email }}</a>
+- <a href="https://github.com/lynnegaogao"><i class="fab fa-github" aria-hidden="true"></i>&nbsp;Github: lynnegaogao</a>
+- <a href="https://scholar.google.com/citations?user=9VqrBe0AAAAJ"><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i>Google Scholar: Lin Gao</a>
+- <a href="https://twitter.com/Lynnegaogao"><i class="fab fa-twitter" aria-hidden="true"></i>&nbsp;Twitter: Lynnegaogao</a>
 </div>
 
 <!--<div class="content" markdown="1">-->

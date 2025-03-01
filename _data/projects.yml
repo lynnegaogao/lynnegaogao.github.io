@@ -17,6 +17,7 @@
 - title: Educational Analogies
   #url: https://chinavis.org/2022/challenge.html
   #slides: /slides/2022-ChinaVis-CriminalNetworkAssets.pdf
+  paper: /papers/2025-EducationalAnalogy-CHI.pdf
   image: eduanalogy.png
   description: "Evaluate LLM-generated analogies in biology and physics with two-phrase studies, and presents a system to help teachers generate and refine analogies."
   highlight: 3
