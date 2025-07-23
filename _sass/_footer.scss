@@ -1,5 +1,5 @@
 footer {
-  padding: $spacing-unit 0;
+  padding: calc($spacing-unit / 2) 0;
 
   font-size: $small-font-size;
 
@@ -15,15 +15,21 @@ footer {
 
   .container {
     display: flex;
-    flex-direction: row;
+    //flex-direction: row;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
   }
 
   .footer-col {
-    padding: calc($spacing-unit/2) 0;
+    flex: 1 1 auto;
+    //min-width: 180px;
+    max-width: 300px;
+    font-size: 1em;
+    //display:inline-block;
+    padding: calc($spacing-unit/4) 0;
   }
+  
   .site-desc {
     width: 500px;
 

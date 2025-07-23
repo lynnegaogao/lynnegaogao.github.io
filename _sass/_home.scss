@@ -74,7 +74,7 @@
   //}
 
   .news {
-    max-height: 140px; /* 固定高度 */
+    max-height: 145px; /* 固定高度 */
     overflow-y: auto; /* 当内容超出时显示垂直滚动条 */
     padding-right: 10px; /* 防止滚动条覆盖内容 */
   }
@@ -86,8 +86,12 @@
   }
 
   .news-content li {
-    margin-bottom: 0.2em;
+    margin-bottom: 0.05em;
   }
+
+  .news-text {
+  overflow: hidden;
+}
 
   .news-item {
     display: flex;
@@ -101,7 +105,7 @@
   .news-date {
     margin-left: 1em;
     color: grey;
-    font-size: 0.8em;
+    font-size: 0.5em;
   }
 
   time {
@@ -111,15 +115,15 @@
   }
 
   .button {
-    color: $brand-color;
+    color: $link-color;
     padding: 6px 16px;
     border-radius: 3px;
-    border: 1px solid lighten($brand-color, 20%);
+    border: 1px solid lighten($link-color, 20%);
 
     &:hover {
       opacity: 1;
       text-decoration: none;
-      background-color: lighten($brand-color, 50%);
+      background-color: lighten($link-color, 50%);
     }
   }
 
@@ -313,6 +317,16 @@
     }
   }
 }
+
+.venue-tag {
+  background-color: lighten($yellow-color, 40%);
+  border-radius: 6px;
+  padding: 2px 6px;
+  color: black; // 视具体情况调整文字颜色
+  font-size: 0.9em;
+  margin-right: 3px;
+}
+
 
 //@keyframes bounce {
 //  0%, 100% {

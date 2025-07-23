@@ -132,7 +132,7 @@
     margin-bottom: 2em;
 
     h3 {
-      font-size: 1.2em;
+      font-size: 1.15em;
       margin: 0em;
       font-weight: 500;
 
@@ -241,6 +241,7 @@
   display: block;
   width: 200px;  /* 固定宽度 */
   height: 100px;
+  flex-shrink: 0;  
   margin-right: 15px;
   border: 1px solid #f1f1f1;
 
@@ -257,4 +258,13 @@
 
 .publication-content {
   flex: 1 1 auto; /* 允许内容区域填充剩余空间 */
+}
+
+.venue-tag {
+  background-color: lighten($yellow-color, 40%);
+  border-radius: 6px;
+  padding: 2px 6px;
+  color: black; // 视具体情况调整文字颜色
+  font-size: 0.9em;
+  margin-right: 2px;
 }

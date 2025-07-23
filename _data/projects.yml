@@ -1,10 +1,26 @@
+- title: SceneLoom
+  #url: https://developer.apple.com/documentation/Charts
+  video: https://drive.google.com/file/d/19eXsSnTAeD-RtIiDqfpjh1bb6WyHYd8R/view?usp=sharing
+  paper: /papers/2025-SceneLoom-VIS.pdf
+  image: sceneloom.png
+  description: "We present SceneLoom, a VLM-powered system that enables context-aware coordination between data visualizations and real-world imagery to support expressive communication.
+"
+  highlight: 1
+
+- title: ProactiveVA
+  #url: https://chinavis.org/2022/challenge.html
+  #slides: /slides/2022-ChinaVis-CriminalNetworkAssets.pdf
+  image: proactiveva.png
+  description: "We propose a proactive visual analytics frameowork that utilizes LLM-powered UI agent to help users with context-aware assistance proactively. The agent can conduct interactive and visual reasoning in visualization system."
+  #highlight: 3
+
 - title: Tailor-Mind
   #url: https://developer.apple.com/documentation/Charts
-  #video: https://developer.apple.com/wwdc22/10136
+  video: https://drive.google.com/file/d/1bryDMlUqCDMeuaYCctoNLlafgYi_nkF_/view?usp=sharing
   paper: /papers/2024-TailorMind-VIS.pdf
   image: tailormind.png
-  description: "Propose a framework for integrating fine-tuned LLMs into domain-specific visualization systems. Tailor-Mind applies this framework in education to facilitate self-regulated learning."
-  highlight: 1
+  description: "We propose a framework for integrating fine-tuned LLMs into domain-specific visualization systems. Tailor-Mind applies this framework in education to facilitate self-regulated learning."
+  highlight: 2
 
 - title: TransforLearn
   url: https://lynnegaogao.github.io/trans-for-learn.github.io/
@@ -12,15 +28,17 @@
   video: https://www.youtube.com/watch?v=cfbs70RaxvA
   image: transforlearn.png
   description: "TransforLearn is an interactive visual tutorial tool that helps beginners learn the Transformer model through architecture-driven and task-driven explorations."
-  highlight: 2
+  highlight: 3
 
 - title: Educational Analogies
   #url: https://chinavis.org/2022/challenge.html
   #slides: /slides/2022-ChinaVis-CriminalNetworkAssets.pdf
   paper: /papers/2025-EducationalAnalogy-CHI.pdf
   image: eduanalogy.png
-  description: "Evaluate LLM-generated analogies in biology and physics with two-phrase studies, and presents a system to help teachers generate and refine analogies."
-  highlight: 3
+  description: "We evaluate LLM-generated analogies in biology and physics with two-phrase studies, and presents a system to help teachers generate and refine analogies."
+  highlight: 4
+
+
 
 - title: SimSpark
   #url: https://chinavis.org/2022/challenge.html

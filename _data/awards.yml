@@ -1,16 +1,22 @@
+- name: First-Class Graduation Scholarship, FDU
+  years: 2025
+  description: "¥100K CNY for top graduating master's students"
+- name: Outstanding Graduate Student, Shanghai
+  years: 2025
+  description: "Thesis: Fine‑Tuned Large Language Model for Visualization System: A Study on Self‑Regulated Learning in Education"
 - name: Second Price in Doctoral Forum of SDS, FDU
   years: 2024
   description: ""
 - name: China National Scholarship
   years: 2024
-  description: ""
+  description: "¥20K CNY national-level scholarship for academic excellence (<1%, top award in China)"
 - name: Outstanding Student, FDU
   years: 2024
   description: ""
 - name: Outstanding Freshman Scholarship, FDU
   years: 2023
-  description: ""
-- name: Outstanding Graduate Thesis, Chongqing Province
+  description: "¥35K CNY scholarship for high-ranking incoming students"
+- name: Outstanding Graduate Thesis, Chongqing
   years: 2023
   description: "Thesis: Interactive Visual Tutorial of the Transformer Model for Non-experts"
 - name: Outstanding Graduate Student, CQU

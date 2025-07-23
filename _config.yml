@@ -2,7 +2,7 @@
 title: Lin Gao
 email: lgao.lynne@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-   Master student at Fudan University.
+   Ph.D. student from the University of Waterloo.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://lynnegao.me/" # the base hostname & protocol for your site
 production_url: "http://lynnegao.me/"

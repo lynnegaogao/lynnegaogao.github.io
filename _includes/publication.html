@@ -2,10 +2,10 @@
 
 <div class="publication" data-pub='{{ pub | jsonify | escape }}'>
 
-  <!--{% if pub.image %}
+{% if pub.image %}
   <div class="publication-image" style="background-image: url('{{ pub.image }}');">
   </div>
- {% endif %}-->
+{% endif %}
 
   <div class="publication-content">
     <h3 id="{{ anchor }}">{% for award in pub.awards %}<i class="fas fa-{% if award == " Best Paper Award" %}trophy{%
@@ -24,6 +24,10 @@
     </div>
     {% if pub.venue %}
     <div class="venue">
+      {% if pub.venue_tags %}
+      <span class="venue-tag">{{ pub.venue_tags }}</span>
+      {% endif %}
+
       {% if pub.venue_url %}
       <a href="{{ pub.venue_url }}">
         {% endif %}
@@ -58,56 +62,68 @@
     {% endif %}
 
 
-    {% if pub.link or pub.pdf or pub.video or pub.blog or pub.slides or pub.doi or pub.arxiv %}
+    {% if pub.link or pub.pdf or pub.arxiv or pub.video or pub.blog or pub.slides or pub.doi %}
     <div class="extra-links">
       {% if pub.short_doi %}
       <a href="http://doi.org/{{ pub.short_doi }}">
         <i class="fas fa-book" aria-hidden="true"></i> DOI
       </a>
       {% endif %}
+
       {% if pub.pdf %}
       <a href="{{ pub.pdf }}">
         <i class="far fa-file-pdf" aria-hidden="true"></i> PDF
       </a>
       {% endif %}
-      {% if pub.link %}
-      <a href="{{ pub.link }}">
-        <i class="fas fa-link" aria-hidden="true"></i> Project
-      </a>
-      {% endif %}
-      {% if pub.html %}
-      <a href="{{ pub.html }}">
-        <i class="fab fa-html5" aria-hidden="true"></i> HTML
-      </a>
-      {% endif %}
-      {% if pub.blog %}
-      <a href="{{ pub.blog }}">
-        <i class="fas fa-newspaper" aria-hidden="true"></i> Article
-      </a>
-      {% endif %}
-      {% if pub.video %}
-      <a href="{{ pub.video }}">
-        <i class="fas fa-film" aria-hidden="true"></i> Video
-      </a>
-      {% endif %}
-      {% if pub.recording %}
-      <a href="{{ pub.recording }}">
-        <i class="fas fa-video" aria-hidden="true"></i> Recording
-      </a>
-      {% endif %}
-      {% if pub.slides %}
-      <a href="{{ project.slides }}"><i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides</a>
-      {% endif %}
-      {% if pub.doi %}
-      <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
-        <i class="fas fa-book" aria-hidden="true"></i> Bibtex
-      </a>
-      {% endif %}
+
       {% if pub.arxiv %}
       <a href="{{ pub.arxiv }}">
         <i class="fas fa-archive" aria-hidden="true"></i> arXiv
       </a>
       {% endif %}
+
+      {% if pub.link %}
+      <a href="{{ pub.link }}">
+        <i class="fas fa-link" aria-hidden="true"></i> Project
+      </a>
+      {% endif %}
+
+      {% if pub.html %}
+      <a href="{{ pub.html }}">
+        <i class="fab fa-html5" aria-hidden="true"></i> HTML
+      </a>
+      {% endif %}
+
+      {% if pub.blog %}
+      <a href="{{ pub.blog }}">
+        <i class="fas fa-newspaper" aria-hidden="true"></i> Article
+      </a>
+      {% endif %}
+
+      {% if pub.video %}
+      <a href="{{ pub.video }}">
+        <i class="fas fa-film" aria-hidden="true"></i> Video
+      </a>
+      {% endif %}
+
+      {% if pub.recording %}
+      <a href="{{ pub.recording }}">
+        <i class="fas fa-video" aria-hidden="true"></i> Recording
+      </a>
+      {% endif %}
+
+      {% if pub.slides %}
+      <a href="{{ project.slides }}">
+        <i class="fas fa-file-powerpoint" aria-hidden="true"></i> Slides
+      </a>
+      {% endif %}
+
+      {% if pub.doi %}
+      <a href="https://www.doi2bib.org/bib/{{ pub.doi }}">
+        <i class="fas fa-book" aria-hidden="true"></i> Bibtex
+      </a>
+      {% endif %}
+      
     </div>
     {% endif %}
 
