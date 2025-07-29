@@ -1,6 +1,6 @@
 - title: SceneLoom
-  url: https://www.youtube.com/embed/I_qUDy52uXk
-  video: https://lynnegao.me/scene-loom/
+  url: https://lynnegao.me/scene-loom/
+  video: https://www.youtube.com/embed/I_qUDy52uXk
   paper: /papers/2025-SceneLoom-VIS.pdf
   image: sceneloom.png
   description: "We present SceneLoom, a VLM-powered system that enables context-aware coordination between data visualizations and real-world imagery to support expressive communication.
