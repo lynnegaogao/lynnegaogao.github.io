@@ -24,9 +24,10 @@ class: home
 
 <!--<div class="content" markdown="1">-->
 <div class="intro" markdown="1">
-Hi, I'm Lin Gao (Lynne, 高琳), an incoming Ph.D. student at [University of Waterloo](https://uwaterloo.ca/), advised by [Prof. Jian Zhao](https://www.jeffjianzhao.com/). I received my master's degree from the School of Data Science at [Fudan University](https://www.fudan.edu.cn/en/), where I was a member of the [FDUVIS Lab](https://fduvis.net/) and worked under the supervision of [Prof. Siming Chen](http://simingchen.me/).
+Hi, I'm Lin Gao (Lynne, 高琳). I graduated in the summer of 2025 with a master's degree from the School of Data Science at [Fudan University](https://www.fudan.edu.cn/en/). During my time at the [FDUVIS Lab](https://fduvis.net/) led by [Prof. Siming Chen](http://simingchen.me/), I became deeply engaged in visualization research and system building, which sparked my long-term interest in human-centered approaches to data analysis.
 <br><br>
-My research interests lie in Data Visualization, Human-AI Interaction and Human-Data Communication. Specifically, I aim to advance <span style="color: #F59E35;">**intelligent education**</span> and <span style="color: #F59E35;">**data-driven storytelling**</span> through visualization and interaction techniques. I'm exploring research related to human-AI collaboration with large language models.
+My research interests lie in Data Visualization, Human-AI Interaction and Human-Data Communication. Specifically, I aim to advance <span style="color: #F59E35;">**intelligent education**</span> and <span style="color: #F59E35;">**creativity support**</span> through visualization and interaction techniques. Recently, I'm exploring research related to human-AI collaboration with large language models.
+
 <br><br>
 📢 **News**  
 <!--<span class="bounce">🙋🏻‍♀️ I am actively seeking for PhD position of 25Fall!</span>-->
