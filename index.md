@@ -37,7 +37,7 @@ My research interests lie in Data Visualization, Human-AI Interaction and Human-
 <li>
     <div class="news-item">
       <div class="news-text">
-      🎭 Attend <a href="https://ieeevis.org/year/2025/welcome" style="color: link-color; text-decoration: none;">IEEE VIS 2025</a> in Vienna and also served as a Student Volunteer. Feel free to say hi! 👋
+      🎭 Attend <a href="https://ieeevis.org/year/2025/welcome" style="color: link-color; text-decoration: none;">IEEE VIS 2025</a> in Vienna to present our paper <i>SceneLoom</i> and also served as a Student Volunteer. Feel free to say hi! 👋
       </div>
       <time class="news-date">Nov 1, 2025</time>
     </div>
