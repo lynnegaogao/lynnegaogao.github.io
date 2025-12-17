@@ -26,14 +26,24 @@ class: home
 <div class="intro" markdown="1">
 Hi, I'm Lin Gao (Lynne, 高琳). I graduated in the summer of 2025 with a master's degree from the School of Data Science at [Fudan University](https://www.fudan.edu.cn/en/). During my time at the [FDUVIS Lab](https://fduvis.net/) led by [Prof. Siming Chen](http://simingchen.me/), I became deeply engaged in visualization research and system building, which sparked my long-term interest in human-centered approaches to data analysis.
 <br><br>
-My research interests lie in Data Visualization, Human-AI Interaction and Human-Data Communication. Specifically, I aim to advance <span style="color: #F59E35;">**intelligent education**</span> and <span style="color: #F59E35;">**creativity support**</span> through visualization and interaction techniques. Recently, I'm exploring research related to human-AI collaboration with large language models.
+My research focuses on <span style="color: #B94179FF; font-weight: bold; ">Communicating Data through Intuitive Authoring</span>, combining data visualization, human–AI collaboration, and intelligent system design. I develop systems and tools that make data communication <span style="background: linear-gradient(90deg, #b33e74 0%, #B04545FF 50%, #3679A6FF 100%); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; font-weight: bold; font-style: italic;">
+    effective, contextual, and learnable,</span> integrating domain context, human cognition, and machine intelligence. Ultimately, I aim to transform visualization into a process of human–AI co-creation, enabling people to think, learn, and create through data.
+<!--My research interests lie in Data Visualization, Human-AI Interaction and Human-Data Communication. Specifically, I aim to advance <span style="color: #F59E35;">**intelligent education**</span> and <span style="color: #F59E35;">**creativity support**</span> through visualization and interaction techniques. Recently, I'm exploring research related to human-AI collaboration with large language models.-->
 
-<br><br>
+<br>
 📢 **News**  
 <!--<span class="bounce">🙋🏻‍♀️ I am actively seeking for PhD position of 25Fall!</span>-->
 <div class="news" markdown="1">
 <div class="news-content">
 <ul>
+<li>
+    <div class="news-item">
+      <div class="news-text">
+      🤶🏼 Happy to start my internship in <a href="https://www.microsoft.com/en-us/research/group/social-computing-beijing/" style="color: link-color; text-decoration: none;">Social Computing Group</a> at <a href="https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/" style="color: link-color; text-decoration: none;">Microsoft Research Asia</a>, working with <a href="https://haotian-li.com/" style="color: link-color; text-decoration: none;">Dr. Haotian Li</a>. 
+      </div>
+      <time class="news-date">Dec 8, 2025</time>
+    </div>
+  </li>
 <li>
     <div class="news-item">
       <div class="news-text">
