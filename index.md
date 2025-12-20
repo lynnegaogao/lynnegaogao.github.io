@@ -13,6 +13,12 @@ class: home
     src='/images/lynnegao.jpg'
     alt='Lin Gao'>
 </picture>
+<div style="text-align: right; font-size: 11px; color: #666; font-style: italic; margin-top: 6px;">
+  Credit:
+  <a href="https://www.xiaohongshu.com/user/profile/5997acdf82ec397c808fbda9?xsec_token=ABlSHsBHhCEvAS1xQ5g0kjHGq43uZBrH-WFWmp9FE6X7Y=&xsec_source=pc_comment">
+    @ClorieNeedsSleep
+  </a> 🫶🏻
+</div>
 
 {:.no-list}
 
